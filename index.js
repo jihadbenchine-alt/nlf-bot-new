@@ -162,7 +162,7 @@ client.on('guildMemberAdd', async (member) => {
   if (!channel) return;
 
   const embed = new EmbedBuilder()
-    .setColor('#ffffff')
+    .setColor('#FF0000')
     .setTitle('🎉 Welcome to  Pulsar Role play')
     .setDescription(
 `Welcome ${member}!
@@ -238,7 +238,7 @@ client.on('interactionCreate', async (interaction) => {
 
       if (targetUser) {
         const dmEmbed = new EmbedBuilder()
-          .setColor(isAccept ? '#3ddc84' : '#ff5c6c')
+          .setColor(isAccept ? '#FF0000' : '#FF0000')
           .setTitle(isAccept ? `✅ ${label} Application Accepted` : `❌ ${label} Application Refused`)
           .setDescription(
             isAccept
@@ -257,7 +257,7 @@ client.on('interactionCreate', async (interaction) => {
       try {
         const originalEmbed = interaction.message.embeds[0];
         const updatedEmbed = EmbedBuilder.from(originalEmbed)
-          .setColor(isAccept ? '#3ddc84' : '#ff5c6c')
+          .setColor(isAccept ? '#3ddc84' : '#FF0000')
           .setFooter({ text: `${isAccept ? '✅ Accepted' : '❌ Refused'} by ${interaction.user.tag}` });
 
         const disabledRow = ActionRowBuilder.from(interaction.message.components[0]);
@@ -1028,7 +1028,7 @@ if (cmd === 'removechann') {
       return message.reply('❌ Write a message.');
 
     const embed = new EmbedBuilder()
-      .setColor('#ffffff')
+      .setColor('#FF0000')
       .setDescription(text)
       .setTimestamp();
 
