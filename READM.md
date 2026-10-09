@@ -11,3 +11,4 @@ New:
 Anti-nuke security (security.js)
 $givemulrole @roleA @roleB  (embeds.js)
 No-chatting ban trap + warning embed, Rating embed channel (embeds.js)
+$removemullrole @role  (embeds.js)
