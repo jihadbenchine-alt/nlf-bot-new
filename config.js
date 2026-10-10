@@ -20,7 +20,7 @@ module.exports = {
   TICKET_CATEGORY_ID: '1519306414416334909',
   LOG_CHANNEL_ID: '1517981978346131597',
   WELCOME_CHANNEL: '1542699174133506048',
-  JAIL_ROLE_ID: 'PUT_JAIL_ROLE_ID_HERE', // set this to your real jail role ID
+  JAIL_ROLE_ID: '1558476226019196978', // set this to your real jail role ID
 
   // Never punished by security / trap channel (besides the bot itself and each server's owner).
   // Add more with env SECURITY_WHITELIST="id1,id2"
