@@ -8,14 +8,14 @@ function setup(client) {
     if (!channel) return;
 
     const embed = new EmbedBuilder()
-      .setColor('#ffffff')
-      .setTitle('Welcome to Pulsar Role Play')
+      .setColor('#FF0000')
+      .setTitle('Welcome to no life rp Role Play')
       .setDescription(
 `Welcome ${member}!
 
 > Read the server rules.
-> Choose your roles.
-> Meet the community.
+> take whitelist.
+> play in the server.
 > Enjoy your stay!`
       )
       .setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
