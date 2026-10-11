@@ -10,7 +10,7 @@ module.exports = {
   CLIENT_ID: process.env.CLIENT_ID,
   GUILD_ID: process.env.GUILD_ID,
   API_SECRET: process.env.API_SECRET, // shared key the website sends to prove it may submit applications
-   AUTO_ROLE_ID: '1558959285067849818', // given automatically to every new member who joins
+  AUTO_ROLE_ID: '1558959285067849818', // given automatically to every new member who joins
   PORT: process.env.PORT || 3000,
 
   TEMPLATES_DIR: path.join(__dirname, 'templates'),
