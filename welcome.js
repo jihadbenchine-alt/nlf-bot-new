@@ -9,12 +9,12 @@ function setup(client) {
 
     const embed = new EmbedBuilder()
       .setColor('#FF0000')
-      .setTitle('Welcome to no life rp Role Play')
+      .setTitle('Welcome to LIGHT PvP')
       .setDescription(
 `Welcome ${member}!
 
 > Read the server rules.
-> take whitelist.
+> Join community .
 > play in the server.
 > Enjoy your stay!`
       )
