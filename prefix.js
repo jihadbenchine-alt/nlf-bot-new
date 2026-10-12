@@ -456,7 +456,7 @@ function setup(client) {
         if (!text) return message.reply('Write a message.');
 
         const embed = new EmbedBuilder()
-          .setColor('#ffffff')
+          .setColor('#00B3FF')
           .setDescription(text)
           .setTimestamp();
 
