@@ -18,14 +18,14 @@ function setup(client) {
     if (!channel) return;
 
     const embed = new EmbedBuilder()
-      .setColor('#ffffff')
-      .setTitle('Welcome to Pulsar Role Play')
+      .setColor('##00B3FF')
+      .setTitle('Welcome LIGHT PvP')
       .setDescription(
 `Welcome ${member}!
 
 > Read the server rules.
-> Choose your roles.
-> Meet the community.
+> Join server and play.
+> have fun .
 > Enjoy your stay!`
       )
       .setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
