@@ -18,7 +18,7 @@ function setup(client) {
     if (!channel) return;
 
     const embed = new EmbedBuilder()
-      .setColor('##00B3FF')
+      .setColor('#00B3FF')
       .setTitle('Welcome LIGHT PvP')
       .setDescription(
 `Welcome ${member}!
